@@ -9,10 +9,10 @@ import { ProductService } from './product.service';
   providers: [ProductService]
 })
 export class ProductComponent implements OnInit {
-  private todos;
-  private activeTasks;
-  private newTodo;
-  private path;
+  public todos;
+  public activeTasks;
+  public newTodo;
+  public path;
 
   constructor(private productService: ProductService) { }
 

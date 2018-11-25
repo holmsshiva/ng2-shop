@@ -1,11 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+//import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductComponent } from './product/product.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
@@ -19,8 +19,7 @@ import { FooterComponent } from './shared/footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
-    NgbModule.forRoot()
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
